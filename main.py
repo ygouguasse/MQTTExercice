@@ -19,7 +19,7 @@ def on_connect(client, userdata, flags, reason_code, properties):
 mqttc = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
 mqttc.on_connect = on_connect
 
-mqttc.connect("10.4.1.202",1883, 60)
+mqttc.connect("10.4.1.144",1883, 60)
 
 while True:
 
